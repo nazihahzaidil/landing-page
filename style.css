@@ -1,0 +1,164 @@
+body {
+    background-color: #eeede7;
+    font-size: 15px;
+    color:black;
+    text-align: center;
+    font-family: "Courier New";
+}
+
+div {
+    font-size: 15px;
+    color:black;
+    text-align: left;
+    
+}
+
+p {
+    font-family: Georgia;
+    font-size: 18px;
+    color:black;
+}
+
+a {
+    left: 252px;
+    float: right;
+    margin-right: 10px;
+}
+
+a.one, a.two {
+    color: brown;
+    text-decoration:none;
+}
+
+a.one:visited, a.two:visited {
+    color: black;
+    text-decoration:none;
+  }
+
+a.one:hover, a.two:hover {
+    color: red;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+div.flex-signup {
+    display: flex;
+    background-color: #e7d2cc;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+div.flex-signup > div > h2 {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+}
+
+div.flex-signup > div > p {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    margin: 10px;
+}
+
+div.flex-signup > div > button {
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #914955;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+div.flex-signup > div > button:hover {
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+button.one, button.two {
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    background-color: #e7e7e7;
+    color: black;
+    cursor: pointer;
+}
+
+button.one:hover, button.two:hover {
+    background-color: #868b8e;
+    color: white;
+    font-weight: bold;
+
+}
+
+div.flex-container1 {
+    display: flex;
+    background-color: #b9b7bd;
+    flex-direction: column;
+
+}
+
+div.flex-container1 > div {
+    text-align: center;
+    font-family: "Georgia";
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+div.flex-container2 {
+    display: flex;
+    background-color: #b9b7bd;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.flex-container2 > div {
+    margin: 10px;
+    text-align: center;
+
+}
+
+div.flex-container2 > div > p {
+    font-family: "Georgia";
+    font-size: 15px;
+    color: black;
+}
+
+div.quotes {
+    display: flex;
+    background-color: #e7d2cc;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:black;
+
+}
+
+div.types {
+    align-content: left;
+}
+
+div.footer, div.footer > p {
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background: #914955;
+}
